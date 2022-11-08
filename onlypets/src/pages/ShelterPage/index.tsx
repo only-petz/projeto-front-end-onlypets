@@ -50,20 +50,9 @@ export const ShelterPage = () => {
           amiguinhos e também amigos humanos que possam dar o mesmo bem-estar a
           eles em seus lares.
         </p>
-        <Button
-          className='button__size--large button__color--primary'
-          onClick={handleModalPetsShelter}
-        >
-          Ver animais!
-        </Button>
+
       </DivStyled>
       <PetList />
-      <DivReports>
-        <h2>Denuncias</h2>
-        <ReportsList />
-      </DivReports>
-      {showModalAddPet && <AddPets />}
-      {showModalPetsShelter && <ListPets />}
     </>
   );
 };

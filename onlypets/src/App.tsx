@@ -1,5 +1,5 @@
 import './App.css';
-//import { Homepage } from './pages/homepage';
+import { Homepage } from './pages/homepage';
 import { GlobalStyles } from './styles';
 import { UserProvider } from './contexts/user';
 import { PetProvider } from './contexts/PetContext';
@@ -13,8 +13,8 @@ function App() {
       <GlobalStyles />
       <UserProvider>
         <PetProvider>
-          {/* <Homepage /> */}
-          <ShelterPage />
+          <Homepage />
+          {/* <ShelterPage /> */}
         </PetProvider>
       </UserProvider>
       <ToastContainer />

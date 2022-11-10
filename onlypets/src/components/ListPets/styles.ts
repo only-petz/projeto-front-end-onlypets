@@ -15,15 +15,22 @@ export const ListPetsModal = styled.div`
   .div_containerModal {
     width: 100%;
     max-width: 750px;
+    max-height: 500px;
+
     margin: 16px;
+    padding: 40px 20px;
+
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 35px;
+
     background-color: var(--color-secondary-1);
     border-radius: var(--border-radius-1);
-    padding: 40px 20px;
+
     position: relative;
+
+    overflow-y: auto;
   }
 
   h3 {

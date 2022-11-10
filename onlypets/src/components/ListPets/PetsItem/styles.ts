@@ -32,8 +32,8 @@ export const StyledPetItem = styled.li`
     position: absolute;
     width: 100px;
     height: fit-content;
-    right: 25px;
-    top: 25px;
+    right: 20px;
+    top: 35px;
     z-index: 10;
     padding: 0 10px;
     text-align: end;
@@ -46,10 +46,11 @@ export const StyledPetItem = styled.li`
       height: 15px;
       display: block;
       position: absolute;
-      bottom: 100px;
-      right: 0px;
+      bottom: 105.5px;
+      right: 5px;
       transform: skew(-15deg, -25deg);
       background-color: var(--color-secondary-1);
+      z-index: 5;
     }
 
     li {
@@ -71,7 +72,7 @@ export const StyledPetItem = styled.li`
       }
       100% {
         opacity: 1;
-        top: 60%;
+        top: 75%;
       }
     }
   }
